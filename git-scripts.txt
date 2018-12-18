@@ -1,0 +1,32 @@
+git init
+git add .
+git config --global user.email "ruargh@gmail.com"
+git config --global user.name "ruargh"
+git commit -am "initial commit"
+
+
+git remote add origin https://github.com/reactnd/p1_l4_e1.git
+git push -u origin master
+
+git clone https://github.com/reactnd/p1_l4_e1.git
+cd p1_l4_e1
+gitignore node
+yarn install
+git add .
+git commit -am "yarn install pc"
+git push
+code .
+yarn start
+
+
+/* Close App.js */
+git reset
+git pull
+npm install
+npm start
+git add .
+git config --global user.email "ruargh@gmail.com"
+git config --global user.name "ruargh"
+git commit -am "npm install workspace"
+git push
+
